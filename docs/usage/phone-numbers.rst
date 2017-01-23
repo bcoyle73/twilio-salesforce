@@ -18,7 +18,7 @@ Finding numbers to buy couldn't be easier. We first search for a number in area 
     String AUTH_TOKEN = 'YYYYYYYYYYYYYYYYYY';
     TwilioRestClient client = new TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN);
     
-    List<TwilioAvailablePhoneNumbers> numbers;
+    List<TwilioAvailablePhoneNumberList> numbers;
     Map<String,String> filters = new Map<String,String> {
     		'AreaCode' => '530'
     	};
